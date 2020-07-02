@@ -37,7 +37,7 @@ function Layout() {
             main: () => <News />
         },
         {
-            path: '*',
+            path: '*', 
             sidebar: () => <div>Home!</div>,
             main: () => <TopPage />
         }
